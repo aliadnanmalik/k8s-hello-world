@@ -1,0 +1,8 @@
+threads: 10
+base: 'http://192.168.99.100:30519'
+iterations: 10000000
+rampup: 2
+plan:
+  - name: Fetch users
+    request:
+      url: /
